@@ -44,7 +44,7 @@ mod_wsgi 的 `安装指引`_ 涵盖了 UNIX 系统中的源码安装。
 启动时执行的获取应用对象的代码。这个对象在该文件中名为 `application` ，并在
 之后作为应用。
 
-对于大多数应用，下面度文件就可以胜任::
+对于大多数应用，下面的文件就可以胜任::
 
     from yourapplication import app as application
 
